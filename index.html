@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kontakt</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bootstrap contact form with PHP example by BootstrapBay.com.">
+    <meta name="author" content="BootstrapBay.com">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	
+	<script src="http://maps.googleapis.com/maps/api/js"></script>
+	<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(44.0166700,20.9166700),
+    zoom:14,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</head>
+
+<body>
+<div class="nav nav-pills navbar-fixed-top">
+  <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Airsoft tim "Kraguj"</a>
+  </div>
+ <ul class="text-right">
+      <li><a href="index.html">Naslovna</a></li>
+      <li><a href="O nama.html">O nama</a></li>
+      <li><a href="Galerija.html">Galerija</a></li>
+      <li><a href="Istorija.html">Istorija</a></li>
+      <li class="active"><a href="#">Kontakt</a></li>
+  </ul>
+  </div>
+  <div></div>
+
+  <div class="container-fluid kontakt">
+  	<div id="googleMap" style="width:100;height:380px;"></div>
+  	<div></div>
+  	<div>
+  	<h3>Kontakt preko Facebook-a:</h3>
+  	 <a href="https://www.facebook.com/Ast-Kraguj-810063535778668/timeline" target="-blank"><button type="button" class="btn btn-primary btn-lg"><i class="fa fa-facebook-official"></i>    Airsoft tim "Kraguj"    </button></a>
+  	 </div>
+  </div>
+</body>
+</html>
