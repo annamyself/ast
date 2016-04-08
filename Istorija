@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Istorija</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+
+<div class="nav nav-pills navbar-fixed-top">
+  <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Airsoft tim "Kraguj"</a>
+  </div>
+ <ul class="text-right">
+      <li><a href="index.html">Naslovna</a></li>
+      <li><a href="O nama.html">O nama</a></li>
+      <li><a href="Galerija.html">Galerija</a></li>
+      <li class="active"><a href="#">Istorija</a></li>
+      <li><a href="Kontakt.html">Kontakt</a></li>
+  </ul>
+  </div>
+  <div class="container-fluid istorija" id="ist">
+  <h1 id="h1istorija">Šta je AIRSOFT?</h1>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel fermentum ante. Quisque nec dolor ac metus accumsan mattis id id lacus. Vivamus dignissim placerat felis, sed ultrices lorem ultricies ut. In aliquet metus sed arcu varius, a pellentesque dolor lobortis. Aliquam ultrices enim libero, ac varius arcu pellentesque et. In vel tortor vitae sapien facilisis commodo at sed nisi. Praesent eleifend metus nisl, vitae semper tellus laoreet ut. Nam auctor eleifend odio quis pharetra. Proin volutpat maximus sem non venenatis. Proin mollis ante eget nunc sagittis, eget facilisis elit mattis. Suspendisse tristique leo purus. Suspendisse sit amet blandit felis.
+
+Morbi tempor turpis ac egestas mollis. Pellentesque at enim nec quam viverra aliquam eget quis elit. Vivamus blandit, lacus eget tincidunt auctor, mauris risus volutpat lectus, id tincidunt felis tellus vitae lorem. In tristique augue id nisi euismod volutpat. Praesent tempor commodo convallis. Nullam pellentesque, libero at lobortis congue, ante ligula rhoncus tellus, sit amet fermentum libero nibh vitae nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque sit amet rhoncus orci. Vestibulum nec magna a libero convallis luctus in ac sem. Integer auctor augue at est elementum suscipit. Vivamus suscipit tincidunt sapien eu volutpat. Suspendisse potenti. Aliquam tristique, felis vitae tempus laoreet, arcu purus fermentum magna, id venenatis ante odio id magna. Aenean interdum, sapien nec tempus scelerisque, ante arcu porttitor lacus, id eleifend est augue nec tellus.
+
+Suspendisse potenti. Donec volutpat, lacus eget placerat condimentum, nisi lacus eleifend orci, nec efficitur diam lacus eu ipsum. Donec at laoreet leo. Fusce a ullamcorper felis, vitae vulputate magna. Proin accumsan ligula vitae sagittis porta. Donec ultrices dui ac massa faucibus, id vulputate enim pulvinar. Donec mollis eleifend tortor, non bibendum est efficitur quis. Etiam quis convallis ligula. Suspendisse a nunc id nulla hendrerit facilisis.
+
+Nulla in auctor lorem, id mattis nisl. Vivamus nisi odio, feugiat quis efficitur id, finibus a massa. Aenean dapibus, urna at auctor facilisis, turpis lectus dapibus nisl, ut pellentesque est quam et felis. In non orci quis felis varius maximus. Praesent efficitur nisl massa, ac interdum ante malesuada sit amet. Duis vestibulum viverra purus ut rutrum. Donec sed pretium ipsum, at congue ante. Pellentesque porta augue in sapien maximus mattis. Nunc commodo sem at tortor euismod vehicula congue in tellus.
+
+Cras elit sapien, varius id dolor porttitor, tempus molestie eros. Mauris lobortis euismod dui, non sagittis leo vestibulum ut. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas eu malesuada magna, ullamcorper luctus ligula. Etiam consequat molestie nisi vel finibus. Nunc ut feugiat purus. Donec in lorem eros. Suspendisse imperdiet vel turpis sed consectetur.</p>
+  </div>
+</body>
+</html>
